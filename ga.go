@@ -1,4 +1,4 @@
-// Package ga provides a go.h.js.loader compatible async loading for
+// Package ga provides go.h compatible async loading for
 // Google Analytics.
 package ga
 
