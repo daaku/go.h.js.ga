@@ -23,7 +23,7 @@ func (g *Track) HTML(ctx context.Context) (h.HTML, error) {
 	if g.Account == "" {
 		return nil, errMissingAccount
 	}
-	return &h.Frag{
+	return h.Frag{
 		&h.Script{
 			Inner: h.Unsafe(fmt.Sprintf(
 				`var _gaq = _gaq || [];`+
